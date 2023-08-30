@@ -1,0 +1,12 @@
+#profile {
+  padding: 24px;
+  text-align: center;
+}
+#profile img {
+  width: 112px;
+}
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin: 8px 0;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: var(--text-color);
+}
+body {
+  background: var(--bg-url) no-repeat top center /cover; 
+}
+:root {
+  --text-color: #FFF;
+  --bg-url: url(/assets/bg-mobile.jpg);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.2);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+  --switch-bg-url: url(/assets/MoonStars.svg);
+}
+.light {
+  --text-color: #000;
+  --bg-url:  url(/assets/bg-mobile-light.jpg);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.2);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(/assets/Sun.svg);
+}
+.container {
+  width: 100%;
+  max-width: 588px;
+  margin: 16px auto;
+  padding: 24px;
+}
